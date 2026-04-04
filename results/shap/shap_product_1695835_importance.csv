@@ -1,0 +1,6 @@
+feature,importance
+sales_lag_7,21.479013
+family_encoded,17.332874
+sales_rolling_mean_7,16.212101
+sales_rolling_mean_28,15.480034
+dayofweek,12.749648

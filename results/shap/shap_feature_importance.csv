@@ -1,0 +1,17 @@
+feature,mean_abs_shap,shap_normalized
+sales_rolling_mean_28,48.946884,100.0
+sales_rolling_mean_7,36.608307,74.7919
+sales_lag_7,28.716625,58.668953
+dayofweek,12.301718,25.13279
+sales_lag_14,10.51594,21.48439
+sales_lag_28,8.274386,16.904827
+family_encoded,5.8874803,12.028304
+day,4.334371,8.855254
+onpromotion,3.8412678,7.8478293
+is_weekend,2.7515855,5.6215744
+sales_rolling_std_7,2.6493397,5.412683
+month,1.2468278,2.547308
+holiday_impact,0.3568599,0.7290758
+quarter,0.18430382,0.37653843
+is_month_end,0.116572596,0.23816141
+is_month_start,0.06812297,0.13917734

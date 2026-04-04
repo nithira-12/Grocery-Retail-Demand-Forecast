@@ -1,0 +1,17 @@
+feature,importance
+sales_rolling_mean_28,1618246.5
+sales_lag_7,1075900.875
+sales_rolling_mean_7,805864.625
+sales_lag_14,216281.65625
+family_encoded,200591.359375
+sales_lag_28,118531.6640625
+onpromotion,111876.265625
+dayofweek,96967.9453125
+is_weekend,86142.1484375
+day,34266.453125
+sales_rolling_std_7,29834.9453125
+month,29570.767578125
+holiday_impact,19786.978515625
+quarter,19665.966796875
+is_month_start,16803.12890625
+is_month_end,11269.08203125

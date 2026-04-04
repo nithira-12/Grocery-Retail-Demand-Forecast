@@ -1,0 +1,6 @@
+feature,importance
+sales_rolling_mean_28,35.132595
+sales_rolling_mean_7,28.40443
+sales_lag_7,21.381847
+sales_lag_14,7.344331
+dayofweek,7.0289

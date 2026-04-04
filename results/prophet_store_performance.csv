@@ -1,0 +1,3 @@
+store_nbr,Avg Actual Sales,Avg Predicted Sales,MAE,MAPE (%)
+Store Colombo,231.82,225.28,53.21,51.31
+Store Gampaha,121.35,134.61,29.76,56.44

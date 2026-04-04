@@ -1,0 +1,5 @@
+example,actual,prediction,error,top_features
+best_prediction,77.0,77.0061264038086,-0.00612640380859375,"['sales_rolling_mean_28', 'sales_rolling_mean_7', 'sales_lag_7', 'sales_lag_14', 'day']"
+worst_prediction,2111.0,110.23352813720703,2000.766471862793,"['sales_lag_7', 'sales_rolling_std_7', 'sales_rolling_mean_28', 'sales_lag_14', 'dayofweek']"
+highest_sales,649.143,1202.6732177734375,-553.5302177734375,"['sales_rolling_mean_28', 'sales_lag_7', 'sales_rolling_mean_7', 'dayofweek', 'sales_lag_14']"
+lowest_sales,19.0,16.809240341186523,2.1907596588134766,"['sales_rolling_mean_28', 'sales_rolling_mean_7', 'sales_lag_7', 'dayofweek', 'sales_lag_14']"
