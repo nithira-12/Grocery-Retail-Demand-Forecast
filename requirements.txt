@@ -1,0 +1,12 @@
+streamlit
+plotly
+pandas
+numpy
+xgboost
+scikit-learn
+shap
+prophet
+requests
+wbgapi
+textblob
+beautifulsoup4
