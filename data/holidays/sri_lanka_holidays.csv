@@ -1,276 +1,302 @@
 date,holiday_name,general_impact,meat_restriction,notes
-2013-01-10,Thai Pongal Pre-Shopping,0,0,Rice/flour shopping starts
-2013-01-11,Thai Pongal Pre-Shopping,0,0,Rice/flour continues
-2013-01-12,Thai Pongal Pre-Shopping,0,0,Rice/flour + milk starts
-2013-01-13,Pre Thai Pongal,1,0,PEAK: Rice/milk/veg/banana
-2013-01-14,Thai Pongal Day 1,0,0,Milk continues
+2013-01-10,Pre Thai Pongal Shopping,0,0,Rice/flour shopping starts
+2013-01-11,Pre Thai Pongal Shopping,0,0,Rice/flour continues
+2013-01-12,Pre Thai Pongal Shopping,0,0,Rice/flour + milk starts
+2013-01-13,Pre Thai Pongal Peak,1,0,PEAK: Rice/milk/veg/banana
+2013-01-14,Thai Pongal Day 1,0,0,Celebrations — moderate shopping
 2013-01-15,Thai Pongal Day 2,0,0,Recovery
-2013-01-27,Duruthu Poya,0,1,Meat restricted - Regular Poya
-2013-02-04,Independence Day,0,1,Meat not sold
-2013-02-25,Navam Poya,0,1,Meat restricted - Regular Poya
-2013-03-27,Medin Poya,0,1,Meat restricted - Regular Poya
-2013-03-29,Good Friday,0,0,Minor reduction - small Christian population
-2013-04-06,Pre New Year Shopping,0,0,Shopping starts
-2013-04-07,Pre New Year Shopping,0,0,Shopping continues
-2013-04-08,Pre New Year Shopping,1,0,Shopping accelerates
-2013-04-09,Pre New Year Shopping,1,0,Shopping continues
-2013-04-10,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
-2013-04-11,Pre New Year Peak,1,0,PEAK continues
-2013-04-12,Pre New Year Peak,1,0,Last shopping day
-2013-04-13,New Year Day 1,-1,0,Shops CLOSED
-2013-04-14,New Year Day 2,-1,0,Shops CLOSED
-2013-04-15,Post New Year,0,0,Recovery
-2013-04-25,Bak Poya,0,1,Meat restricted - Regular Poya
-2013-05-01,May Day,0,0,Government holiday
-2013-05-23,Pre Vesak,1,0,Shopping spike before Vesak
-2013-05-24,Vesak Poya,-1,0,Shops CLOSED - Major Poya
-2013-05-25,Post Vesak,0,0,Recovery
-2013-06-22,Pre Poson,1,0,Shopping spike before Poson
-2013-06-23,Poson Poya,-1,0,Shops CLOSED - Major Poya
-2013-06-24,Post Poson,0,0,Recovery
-2013-07-22,Esala Poya,0,1,Meat restricted - Regular Poya
-2013-08-04,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
-2013-08-05,Pre Eid Fitr Shopping,1,0,Shopping accelerates
-2013-08-06,Pre Eid Fitr Peak,1,0,PEAK shopping
-2013-08-07,Pre Eid Fitr Peak,1,0,Last minute rush
-2013-08-08,Eid al-Fitr Day 1,0,0,Muslim shops closed
-2013-08-09,Eid al-Fitr Day 2,0,0,Celebrations continue
-2013-08-10,Eid al-Fitr Day 3,0,0,Recovery
-2013-08-20,Nikini Poya,0,1,Meat restricted - Regular Poya
-2013-09-19,Binara Poya,0,1,Meat restricted - Regular Poya
-2013-10-11,Pre Eid Adha Shopping,1,0,Shopping starts
-2013-10-12,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
-2013-10-13,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
-2013-10-14,Pre Eid Adha Peak,1,0,PEAK: Animal purchases
-2013-10-15,Eid al-Adha Day 1,1,0,Qurbani meat distribution
-2013-10-16,Eid al-Adha Day 2,0,0,Celebrations
-2013-10-17,Eid al-Adha Day 3,0,0,Recovery
-2013-10-18,Vap Poya,0,1,Meat restricted - Regular Poya
-2013-11-02,Pre Deepavali,1,0,Milk/rice/flour/beverages spike
-2013-11-03,Deepavali,0,0,"Tamil shops closed, others open"
-2013-11-16,Il Poya,0,1,Meat restricted - Regular Poya
-2013-12-16,Unduvap Poya,0,1,Meat restricted - Regular Poya
-2013-12-22,Pre Christmas,1,0,Shopping spike
-2013-12-23,Pre Christmas,1,0,Shopping peak
-2013-12-24,Pre Christmas,1,0,Last shopping day
-2013-12-25,Christmas,-1,0,Shops CLOSED
-2014-01-10,Thai Pongal Pre-Shopping,0,0,Rice/flour shopping starts
-2014-01-11,Thai Pongal Pre-Shopping,0,0,Rice/flour continues
-2014-01-12,Thai Pongal Pre-Shopping,0,0,Rice/flour + milk starts
-2014-01-13,Pre Thai Pongal,1,0,PEAK: Rice/milk/veg/banana
-2014-01-14,Thai Pongal Day 1,0,0,Milk continues
+2013-01-25,Prophet's Birthday,0,0,Muslim observance — minor impact on general retail
+2013-01-26,Duruthu Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-02-04,Independence Day,0,1,National holiday — meat not sold by convention
+2013-02-25,Nawam Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-03-10,Maha Sivarathri Day,0,0,Hindu observance — minor impact on general retail
+2013-03-26,Medin Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-03-29,Good Friday,0,0,Minor reduction — small Christian population
+2013-04-07,Pre New Year Shopping,0,0,Rice/flour shopping begins
+2013-04-08,Pre New Year Shopping,0,0,Shopping continues
+2013-04-09,Pre New Year Shopping,1,0,Shopping accelerates
+2013-04-10,Pre New Year Shopping,1,0,Shopping continues
+2013-04-11,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
+2013-04-12,Pre New Year Peak,1,0,PEAK continues
+2013-04-13,Pre New Year Peak,1,0,Last shopping day before closure
+2013-04-14,Sinhala & Tamil New Year Day 1,-1,0,Shops CLOSED — New Year Day 1
+2013-04-15,Sinhala & Tamil New Year Day 2,-1,0,Shops CLOSED — New Year Day 2
+2013-04-16,Post New Year Recovery,0,0,Gradual return to normal
+2013-04-25,Bak Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-05-01,International Workers' Day,0,0,Government holiday — retail largely open
+2013-05-23,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2013-05-24,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2013-05-24,Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2013-05-25,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2013-05-25,Day Following Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2013-05-26,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2013-06-22,Pre Poson Shopping,1,0,Shopping spike before Poson closure
+2013-06-23,Poson Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2013-06-24,Post Poson Recovery,0,0,Recovery day after Poson
+2013-07-22,Esala Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-08-05,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
+2013-08-06,Pre Eid Fitr Shopping,1,0,Shopping accelerates
+2013-08-07,Pre Eid Fitr Peak,1,0,PEAK shopping
+2013-08-08,Pre Eid Fitr Peak,1,0,Last minute rush
+2013-08-09,Eid al-Fitr Day 1,0,0,"Muslim shops closed, others open"
+2013-08-10,Eid al-Fitr Day 2,0,0,Celebrations continue
+2013-08-11,Eid al-Fitr Day 3,0,0,Recovery
+2013-08-20,Nikini Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-09-19,Binara Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-10-12,Pre Eid Adha Shopping,1,0,Shopping starts
+2013-10-13,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
+2013-10-14,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
+2013-10-15,Pre Eid Adha Peak,1,0,PEAK: Last minute purchases
+2013-10-16,Eid al-Adha Day 1,1,0,Qurbani meat distribution — elevated sales
+2013-10-17,Eid al-Adha Day 2,0,0,Celebrations
+2013-10-18,Vap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-10-18,Eid al-Adha Day 3,0,0,Recovery
+2013-11-01,Pre Deepavali Shopping,1,0,Milk/rice/flour/beverages spike
+2013-11-02,Deepavali Festival Day,0,0,"Tamil shops closed, others open"
+2013-11-17,Il Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-12-16,Unduvap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2013-12-22,Pre Christmas Shopping,1,0,Shopping spike
+2013-12-23,Pre Christmas Shopping,1,0,Shopping peak
+2013-12-24,Pre Christmas Peak,1,0,Last shopping day
+2013-12-25,Christmas Day,-1,0,Shops CLOSED
+2014-01-10,Pre Thai Pongal Shopping,0,0,Rice/flour shopping starts
+2014-01-11,Pre Thai Pongal Shopping,0,0,Rice/flour continues
+2014-01-12,Pre Thai Pongal Shopping,0,0,Rice/flour + milk starts
+2014-01-13,Pre Thai Pongal Peak,1,0,PEAK: Rice/milk/veg/banana
+2014-01-14,Thai Pongal Day 1,0,0,Celebrations — moderate shopping
+2014-01-14,Prophet's Birthday,0,0,Muslim observance — minor impact on general retail
 2014-01-15,Thai Pongal Day 2,0,0,Recovery
-2014-01-15,Duruthu Poya,0,1,Meat restricted - Regular Poya
-2014-02-04,Independence Day,0,1,Meat not sold
-2014-02-14,Navam Poya,0,1,Meat restricted - Regular Poya
-2014-03-16,Medin Poya,0,1,Meat restricted - Regular Poya
-2014-04-06,Pre New Year Shopping,0,0,Shopping starts
-2014-04-07,Pre New Year Shopping,0,0,Shopping continues
-2014-04-08,Pre New Year Shopping,1,0,Shopping accelerates
-2014-04-09,Pre New Year Shopping,1,0,Shopping continues
-2014-04-10,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
-2014-04-11,Pre New Year Peak,1,0,PEAK continues
-2014-04-12,Pre New Year Peak,1,0,Last shopping day
-2014-04-13,New Year Day 1,-1,0,Shops CLOSED
-2014-04-14,New Year Day 2,-1,0,Shops CLOSED
-2014-04-15,Post New Year,0,0,Recovery
-2014-04-15,Bak Poya,0,1,Meat restricted - Regular Poya
-2014-04-18,Good Friday,0,0,Minor reduction - small Christian population
-2014-05-01,May Day,0,0,Government holiday
-2014-05-12,Pre Vesak,1,0,Shopping spike before Vesak
-2014-05-13,Vesak Poya,-1,0,Shops CLOSED - Major Poya
-2014-05-14,Post Vesak,0,0,Recovery
-2014-06-10,Pre Poson,1,0,Shopping spike before Poson
-2014-06-11,Poson Poya,-1,0,Shops CLOSED - Major Poya
-2014-06-12,Post Poson,0,0,Recovery
-2014-07-11,Esala Poya,0,1,Meat restricted - Regular Poya
-2014-07-24,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
-2014-07-25,Pre Eid Fitr Shopping,1,0,Shopping accelerates
-2014-07-26,Pre Eid Fitr Peak,1,0,PEAK shopping
-2014-07-27,Pre Eid Fitr Peak,1,0,Last minute rush
-2014-07-28,Eid al-Fitr Day 1,0,0,Muslim shops closed
-2014-07-29,Eid al-Fitr Day 2,0,0,Celebrations continue
-2014-07-30,Eid al-Fitr Day 3,0,0,Recovery
-2014-08-09,Nikini Poya,0,1,Meat restricted - Regular Poya
-2014-09-08,Binara Poya,0,1,Meat restricted - Regular Poya
-2014-09-30,Pre Eid Adha Shopping,1,0,Shopping starts
-2014-10-01,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
-2014-10-02,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
-2014-10-03,Pre Eid Adha Peak,1,0,PEAK: Animal purchases
-2014-10-04,Eid al-Adha Day 1,1,0,Qurbani meat distribution
-2014-10-05,Eid al-Adha Day 2,0,0,Celebrations
-2014-10-06,Eid al-Adha Day 3,0,0,Recovery
-2014-10-08,Vap Poya,0,1,Meat restricted - Regular Poya
-2014-10-22,Pre Deepavali,1,0,Milk/rice/flour/beverages spike
-2014-10-23,Deepavali,0,0,"Tamil shops closed, others open"
-2014-11-06,Il Poya,0,1,Meat restricted - Regular Poya
-2014-12-05,Unduvap Poya,0,1,Meat restricted - Regular Poya
-2014-12-22,Pre Christmas,1,0,Shopping spike
-2014-12-23,Pre Christmas,1,0,Shopping peak
-2014-12-24,Pre Christmas,1,0,Last shopping day
-2014-12-25,Christmas,-1,0,Shops CLOSED
-2015-01-04,Duruthu Poya,0,1,Meat restricted - Regular Poya
-2015-01-10,Thai Pongal Pre-Shopping,0,0,Rice/flour shopping starts
-2015-01-11,Thai Pongal Pre-Shopping,0,0,Rice/flour continues
-2015-01-12,Thai Pongal Pre-Shopping,0,0,Rice/flour + milk starts
-2015-01-13,Pre Thai Pongal,1,0,PEAK: Rice/milk/veg/banana
-2015-01-14,Thai Pongal Day 1,0,0,Milk continues
-2015-01-15,Thai Pongal Day 2,0,0,Recovery
-2015-02-03,Navam Poya,0,1,Meat restricted - Regular Poya
-2015-02-04,Independence Day,0,1,Meat not sold
-2015-03-05,Medin Poya,0,1,Meat restricted - Regular Poya
-2015-04-03,Good Friday,0,0,Minor reduction - small Christian population
-2015-04-04,Bak Poya,0,1,Meat restricted - Regular Poya
-2015-04-06,Pre New Year Shopping,0,0,Shopping starts
-2015-04-07,Pre New Year Shopping,0,0,Shopping continues
-2015-04-08,Pre New Year Shopping,1,0,Shopping accelerates
-2015-04-09,Pre New Year Shopping,1,0,Shopping continues
-2015-04-10,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
-2015-04-11,Pre New Year Peak,1,0,PEAK continues
-2015-04-12,Pre New Year Peak,1,0,Last shopping day
-2015-04-13,New Year Day 1,-1,0,Shops CLOSED
-2015-04-14,New Year Day 2,-1,0,Shops CLOSED
-2015-04-15,Post New Year,0,0,Recovery
-2015-05-01,May Day,0,0,Government holiday
-2015-05-03,Pre Vesak,1,0,Shopping spike before Vesak
-2015-05-04,Vesak Poya,-1,0,Shops CLOSED - Major Poya
-2015-05-05,Post Vesak,0,0,Recovery
-2015-06-01,Pre Poson,1,0,Shopping spike before Poson
-2015-06-02,Poson Poya,-1,0,Shops CLOSED - Major Poya
-2015-06-03,Post Poson,0,0,Recovery
-2015-07-01,Esala Poya,0,1,Meat restricted - Regular Poya
-2015-07-13,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
-2015-07-14,Pre Eid Fitr Shopping,1,0,Shopping accelerates
-2015-07-15,Pre Eid Fitr Peak,1,0,PEAK shopping
-2015-07-16,Pre Eid Fitr Peak,1,0,Last minute rush
-2015-07-17,Eid al-Fitr Day 1,0,0,Muslim shops closed
-2015-07-18,Eid al-Fitr Day 2,0,0,Celebrations continue
-2015-07-19,Eid al-Fitr Day 3,0,0,Recovery
-2015-07-30,Nikini Poya,0,1,Meat restricted - Regular Poya
-2015-08-29,Binara Poya,0,1,Meat restricted - Regular Poya
+2014-01-15,Duruthu Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-02-04,Independence Day,0,1,National holiday — meat not sold by convention
+2014-02-14,Nawam Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-02-27,Maha Sivarathri Day,0,0,Hindu observance — minor impact on general retail
+2014-03-16,Medin Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-04-07,Pre New Year Shopping,0,0,Rice/flour shopping begins
+2014-04-08,Pre New Year Shopping,0,0,Shopping continues
+2014-04-09,Pre New Year Shopping,1,0,Shopping accelerates
+2014-04-10,Pre New Year Shopping,1,0,Shopping continues
+2014-04-11,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
+2014-04-12,Pre New Year Peak,1,0,PEAK continues
+2014-04-13,Pre New Year Peak,1,0,Last shopping day before closure
+2014-04-14,Bak Full Moon Poya Day; Sinhala and Tamil New Year,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-04-14,Sinhala & Tamil New Year Day 1,-1,0,Shops CLOSED — New Year Day 1
+2014-04-15,Sinhala & Tamil New Year Day 2,-1,0,Shops CLOSED — New Year Day 2
+2014-04-16,Post New Year Recovery,0,0,Gradual return to normal
+2014-04-18,Good Friday,0,0,Minor reduction — small Christian population
+2014-05-01,International Workers' Day,0,0,Government holiday — retail largely open
+2014-05-13,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2014-05-14,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2014-05-14,Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2014-05-15,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2014-05-15,Day Following Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2014-05-16,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2014-06-11,Pre Poson Shopping,1,0,Shopping spike before Poson closure
+2014-06-12,Poson Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2014-06-13,Post Poson Recovery,0,0,Recovery day after Poson
+2014-07-12,Esala Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-07-25,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
+2014-07-26,Pre Eid Fitr Shopping,1,0,Shopping accelerates
+2014-07-27,Pre Eid Fitr Peak,1,0,PEAK shopping
+2014-07-28,Pre Eid Fitr Peak,1,0,Last minute rush
+2014-07-29,Eid al-Fitr Day 1,0,0,"Muslim shops closed, others open"
+2014-07-30,Eid al-Fitr Day 2,0,0,Celebrations continue
+2014-07-31,Eid al-Fitr Day 3,0,0,Recovery
+2014-08-10,Nikini Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-09-08,Binara Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-10-01,Pre Eid Adha Shopping,1,0,Shopping starts
+2014-10-02,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
+2014-10-03,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
+2014-10-04,Pre Eid Adha Peak,1,0,PEAK: Last minute purchases
+2014-10-05,Eid al-Adha Day 1,1,0,Qurbani meat distribution — elevated sales
+2014-10-06,Eid al-Adha Day 2,0,0,Celebrations
+2014-10-07,Eid al-Adha Day 3,0,0,Recovery
+2014-10-08,Vap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-10-21,Pre Deepavali Shopping,1,0,Milk/rice/flour/beverages spike
+2014-10-22,Deepavali Festival Day,0,0,"Tamil shops closed, others open"
+2014-11-06,Il Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-12-06,Unduvap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2014-12-22,Pre Christmas Shopping,1,0,Shopping spike
+2014-12-23,Pre Christmas Shopping,1,0,Shopping peak
+2014-12-24,Pre Christmas Peak,1,0,Last shopping day
+2014-12-25,Christmas Day,-1,0,Shops CLOSED
+2015-01-04,Duruthu Full Moon Poya Day; Prophet's Birthday,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-01-04,Prophet's Birthday,0,0,Muslim observance — minor impact on general retail
+2015-01-11,Pre Thai Pongal Shopping,0,0,Rice/flour shopping starts
+2015-01-12,Pre Thai Pongal Shopping,0,0,Rice/flour continues
+2015-01-13,Pre Thai Pongal Shopping,0,0,Rice/flour + milk starts
+2015-01-14,Pre Thai Pongal Peak,1,0,PEAK: Rice/milk/veg/banana
+2015-01-15,Thai Pongal Day 1,0,0,Celebrations — moderate shopping
+2015-01-16,Thai Pongal Day 2,0,0,Recovery
+2015-02-03,Nawam Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-02-04,Independence Day,0,1,National holiday — meat not sold by convention
+2015-02-17,Maha Sivarathri Day,0,0,Hindu observance — minor impact on general retail
+2015-03-05,Medin Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-04-03,Good Friday,0,0,Minor reduction — small Christian population
+2015-04-03,Bak Full Moon Poya Day; Good Friday,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-04-07,Pre New Year Shopping,0,0,Rice/flour shopping begins
+2015-04-08,Pre New Year Shopping,0,0,Shopping continues
+2015-04-09,Pre New Year Shopping,1,0,Shopping accelerates
+2015-04-10,Pre New Year Shopping,1,0,Shopping continues
+2015-04-11,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
+2015-04-12,Pre New Year Peak,1,0,PEAK continues
+2015-04-13,Pre New Year Peak,1,0,Last shopping day before closure
+2015-04-14,Sinhala & Tamil New Year Day 1,-1,0,Shops CLOSED — New Year Day 1
+2015-04-15,Sinhala & Tamil New Year Day 2,-1,0,Shops CLOSED — New Year Day 2
+2015-04-16,Post New Year Recovery,0,0,Gradual return to normal
+2015-05-01,International Workers' Day,0,0,Government holiday — retail largely open
+2015-05-02,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2015-05-03,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2015-05-03,Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2015-05-04,Day Following Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2015-05-04,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2015-05-05,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2015-06-01,Pre Poson Shopping,1,0,Shopping spike before Poson closure
+2015-06-02,Poson Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2015-06-03,Post Poson Recovery,0,0,Recovery day after Poson
+2015-07-01,Adhi Esala Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-07-14,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
+2015-07-15,Pre Eid Fitr Shopping,1,0,Shopping accelerates
+2015-07-16,Pre Eid Fitr Peak,1,0,PEAK shopping
+2015-07-17,Pre Eid Fitr Peak,1,0,Last minute rush
+2015-07-18,Eid al-Fitr Day 1,0,0,"Muslim shops closed, others open"
+2015-07-19,Eid al-Fitr Day 2,0,0,Celebrations continue
+2015-07-20,Eid al-Fitr Day 3,0,0,Recovery
+2015-07-31,Esala Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-08-29,Nikini Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
 2015-09-20,Pre Eid Adha Shopping,1,0,Shopping starts
 2015-09-21,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
 2015-09-22,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
-2015-09-23,Pre Eid Adha Peak,1,0,PEAK: Animal purchases
-2015-09-24,Eid al-Adha Day 1,1,0,Qurbani meat distribution
+2015-09-23,Pre Eid Adha Peak,1,0,PEAK: Last minute purchases
+2015-09-24,Eid al-Adha Day 1,1,0,Qurbani meat distribution — elevated sales
 2015-09-25,Eid al-Adha Day 2,0,0,Celebrations
 2015-09-26,Eid al-Adha Day 3,0,0,Recovery
-2015-09-27,Vap Poya,0,1,Meat restricted - Regular Poya
-2015-10-27,Il Poya,0,1,Meat restricted - Regular Poya
-2015-11-10,Pre Deepavali,1,0,Milk/rice/flour/beverages spike
-2015-11-11,Deepavali,0,0,"Tamil shops closed, others open"
-2015-11-25,Unduvap Poya,0,1,Meat restricted - Regular Poya
-2015-12-22,Pre Christmas,1,0,Shopping spike
-2015-12-23,Pre Christmas,1,0,Shopping peak
-2015-12-24,Pre Christmas,1,0,Last shopping day
-2015-12-25,Christmas,-1,0,Shops CLOSED
-2016-01-10,Thai Pongal Pre-Shopping,0,0,Rice/flour shopping starts
-2016-01-11,Thai Pongal Pre-Shopping,0,0,Rice/flour continues
-2016-01-12,Thai Pongal Pre-Shopping,0,0,Rice/flour + milk starts
-2016-01-13,Pre Thai Pongal,1,0,PEAK: Rice/milk/veg/banana
-2016-01-14,Thai Pongal Day 1,0,0,Milk continues
-2016-01-15,Thai Pongal Day 2,0,0,Recovery
-2016-01-23,Duruthu Poya,0,1,Meat restricted - Regular Poya
-2016-02-04,Independence Day,0,1,Meat not sold
-2016-02-22,Navam Poya,0,1,Meat restricted - Regular Poya
-2016-03-23,Medin Poya,0,1,Meat restricted - Regular Poya
-2016-03-25,Good Friday,0,0,Minor reduction - small Christian population
-2016-04-06,Pre New Year Shopping,0,0,Shopping starts
-2016-04-07,Pre New Year Shopping,0,0,Shopping continues
-2016-04-08,Pre New Year Shopping,1,0,Shopping accelerates
-2016-04-09,Pre New Year Shopping,1,0,Shopping continues
-2016-04-10,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
-2016-04-11,Pre New Year Peak,1,0,PEAK continues
-2016-04-12,Pre New Year Peak,1,0,Last shopping day
-2016-04-13,New Year Day 1,-1,0,Shops CLOSED
-2016-04-14,New Year Day 2,-1,0,Shops CLOSED
-2016-04-15,Post New Year,0,0,Recovery
-2016-04-21,Bak Poya,0,1,Meat restricted - Regular Poya
-2016-05-01,May Day,0,0,Government holiday
-2016-05-20,Pre Vesak,1,0,Shopping spike before Vesak
-2016-05-21,Vesak Poya,-1,0,Shops CLOSED - Major Poya
-2016-05-22,Post Vesak,0,0,Recovery
-2016-06-19,Pre Poson,1,0,Shopping spike before Poson
-2016-06-20,Poson Poya,-1,0,Shops CLOSED - Major Poya
-2016-06-21,Post Poson,0,0,Recovery
+2015-09-27,Binara Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-10-27,Vap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-11-09,Pre Deepavali Shopping,1,0,Milk/rice/flour/beverages spike
+2015-11-10,Deepavali Festival Day,0,0,"Tamil shops closed, others open"
+2015-11-25,Il Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-12-22,Pre Christmas Shopping,1,0,Shopping spike
+2015-12-23,Pre Christmas Shopping,1,0,Shopping peak
+2015-12-24,Pre Christmas Peak,1,0,Last shopping day
+2015-12-24,Unduvap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2015-12-25,Christmas Day,-1,0,Shops CLOSED
+2016-01-11,Pre Thai Pongal Shopping,0,0,Rice/flour shopping starts
+2016-01-12,Pre Thai Pongal Shopping,0,0,Rice/flour continues
+2016-01-13,Pre Thai Pongal Shopping,0,0,Rice/flour + milk starts
+2016-01-14,Pre Thai Pongal Peak,1,0,PEAK: Rice/milk/veg/banana
+2016-01-15,Thai Pongal Day 1,0,0,Celebrations — moderate shopping
+2016-01-16,Thai Pongal Day 2,0,0,Recovery
+2016-01-23,Duruthu Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-02-04,Independence Day,0,1,National holiday — meat not sold by convention
+2016-02-22,Nawam Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-03-07,Maha Sivarathri Day,0,0,Hindu observance — minor impact on general retail
+2016-03-22,Medin Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-03-25,Good Friday,0,0,Minor reduction — small Christian population
+2016-04-07,Pre New Year Shopping,0,0,Rice/flour shopping begins
+2016-04-08,Pre New Year Shopping,0,0,Shopping continues
+2016-04-09,Pre New Year Shopping,1,0,Shopping accelerates
+2016-04-10,Pre New Year Shopping,1,0,Shopping continues
+2016-04-11,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
+2016-04-12,Pre New Year Peak,1,0,PEAK continues
+2016-04-13,Pre New Year Peak,1,0,Last shopping day before closure
+2016-04-14,Sinhala & Tamil New Year Day 1,-1,0,Shops CLOSED — New Year Day 1
+2016-04-15,Sinhala & Tamil New Year Day 2,-1,0,Shops CLOSED — New Year Day 2
+2016-04-16,Post New Year Recovery,0,0,Gradual return to normal
+2016-04-21,Bak Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-05-01,International Workers' Day,0,0,Government holiday — retail largely open
+2016-05-20,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2016-05-21,Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2016-05-21,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2016-05-22,Day Following Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2016-05-22,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2016-05-23,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2016-06-18,Pre Poson Shopping,1,0,Shopping spike before Poson closure
+2016-06-19,Poson Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2016-06-20,Post Poson Recovery,0,0,Recovery day after Poson
 2016-07-02,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
 2016-07-03,Pre Eid Fitr Shopping,1,0,Shopping accelerates
 2016-07-04,Pre Eid Fitr Peak,1,0,PEAK shopping
 2016-07-05,Pre Eid Fitr Peak,1,0,Last minute rush
-2016-07-06,Eid al-Fitr Day 1,0,0,Muslim shops closed
+2016-07-06,Eid al-Fitr Day 1,0,0,"Muslim shops closed, others open"
 2016-07-07,Eid al-Fitr Day 2,0,0,Celebrations continue
 2016-07-08,Eid al-Fitr Day 3,0,0,Recovery
-2016-07-19,Esala Poya,0,1,Meat restricted - Regular Poya
-2016-08-17,Nikini Poya,0,1,Meat restricted - Regular Poya
+2016-07-19,Esala Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-08-17,Nikini Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
 2016-09-08,Pre Eid Adha Shopping,1,0,Shopping starts
 2016-09-09,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
 2016-09-10,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
-2016-09-11,Pre Eid Adha Peak,1,0,PEAK: Animal purchases
-2016-09-12,Eid al-Adha Day 1,1,0,Qurbani meat distribution
+2016-09-11,Pre Eid Adha Peak,1,0,PEAK: Last minute purchases
+2016-09-12,Eid al-Adha Day 1,1,0,Qurbani meat distribution — elevated sales
 2016-09-13,Eid al-Adha Day 2,0,0,Celebrations
 2016-09-14,Eid al-Adha Day 3,0,0,Recovery
-2016-09-16,Binara Poya,0,1,Meat restricted - Regular Poya
-2016-10-15,Vap Poya,0,1,Meat restricted - Regular Poya
-2016-10-29,Pre Deepavali,1,0,Milk/rice/flour/beverages spike
-2016-10-30,Deepavali,0,0,"Tamil shops closed, others open"
-2016-11-14,Il Poya,0,1,Meat restricted - Regular Poya
-2016-12-13,Unduvap Poya,0,1,Meat restricted - Regular Poya
-2016-12-22,Pre Christmas,1,0,Shopping spike
-2016-12-23,Pre Christmas,1,0,Shopping peak
-2016-12-24,Pre Christmas,1,0,Last shopping day
-2016-12-25,Christmas,-1,0,Shops CLOSED
-2017-01-10,Thai Pongal Pre-Shopping,0,0,Rice/flour shopping starts
-2017-01-11,Thai Pongal Pre-Shopping,0,0,Rice/flour continues
-2017-01-12,Duruthu Poya,0,1,Meat restricted - Regular Poya
-2017-01-12,Thai Pongal Pre-Shopping,0,0,Rice/flour + milk starts
-2017-01-13,Pre Thai Pongal,1,0,PEAK: Rice/milk/veg/banana
-2017-01-14,Thai Pongal Day 1,0,0,Milk continues
+2016-09-16,Binara Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-10-15,Vap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-10-28,Pre Deepavali Shopping,1,0,Milk/rice/flour/beverages spike
+2016-10-29,Deepavali Festival Day,0,0,"Tamil shops closed, others open"
+2016-11-14,Il Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-12-12,Prophet's Birthday,0,0,Muslim observance — minor impact on general retail
+2016-12-13,Unduvap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2016-12-22,Pre Christmas Shopping,1,0,Shopping spike
+2016-12-23,Pre Christmas Shopping,1,0,Shopping peak
+2016-12-24,Pre Christmas Peak,1,0,Last shopping day
+2016-12-25,Christmas Day,-1,0,Shops CLOSED
+2017-01-10,Pre Thai Pongal Shopping,0,0,Rice/flour shopping starts
+2017-01-11,Pre Thai Pongal Shopping,0,0,Rice/flour continues
+2017-01-12,Duruthu Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-01-12,Pre Thai Pongal Shopping,0,0,Rice/flour + milk starts
+2017-01-13,Pre Thai Pongal Peak,1,0,PEAK: Rice/milk/veg/banana
+2017-01-14,Thai Pongal Day 1,0,0,Celebrations — moderate shopping
 2017-01-15,Thai Pongal Day 2,0,0,Recovery
-2017-02-04,Independence Day,0,1,Meat not sold
-2017-02-10,Navam Poya,0,1,Meat restricted - Regular Poya
-2017-03-12,Medin Poya,0,1,Meat restricted - Regular Poya
-2017-04-06,Pre New Year Shopping,0,0,Shopping starts
-2017-04-07,Pre New Year Shopping,0,0,Shopping continues
-2017-04-08,Pre New Year Shopping,1,0,Shopping accelerates
-2017-04-09,Pre New Year Shopping,1,0,Shopping continues
-2017-04-10,Bak Poya,0,1,Meat restricted - Regular Poya
-2017-04-10,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
-2017-04-11,Pre New Year Peak,1,0,PEAK continues
-2017-04-12,Pre New Year Peak,1,0,Last shopping day
-2017-04-13,New Year Day 1,-1,0,Shops CLOSED
-2017-04-14,New Year Day 2,-1,0,Shops CLOSED
-2017-04-14,Good Friday,0,0,Minor reduction - small Christian population
-2017-04-15,Post New Year,0,0,Recovery
-2017-05-01,May Day,0,0,Government holiday
-2017-05-09,Pre Vesak,1,0,Shopping spike before Vesak
-2017-05-10,Vesak Poya,-1,0,Shops CLOSED - Major Poya
-2017-05-11,Post Vesak,0,0,Recovery
-2017-06-07,Pre Poson,1,0,Shopping spike before Poson
-2017-06-08,Poson Poya,-1,0,Shops CLOSED - Major Poya
-2017-06-09,Post Poson,0,0,Recovery
-2017-06-21,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
-2017-06-22,Pre Eid Fitr Shopping,1,0,Shopping accelerates
-2017-06-23,Pre Eid Fitr Peak,1,0,PEAK shopping
-2017-06-24,Pre Eid Fitr Peak,1,0,Last minute rush
-2017-06-25,Eid al-Fitr Day 1,0,0,Muslim shops closed
-2017-06-26,Eid al-Fitr Day 2,0,0,Celebrations continue
-2017-06-27,Eid al-Fitr Day 3,0,0,Recovery
-2017-07-08,Esala Poya,0,1,Meat restricted - Regular Poya
-2017-08-07,Nikini Poya,0,1,Meat restricted - Regular Poya
+2017-02-04,Independence Day,0,1,National holiday — meat not sold by convention
+2017-02-10,Nawam Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-02-24,Maha Sivarathri Day,0,0,Hindu observance — minor impact on general retail
+2017-03-12,Medin Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-04-07,Pre New Year Shopping,0,0,Rice/flour shopping begins
+2017-04-08,Pre New Year Shopping,0,0,Shopping continues
+2017-04-09,Pre New Year Shopping,1,0,Shopping accelerates
+2017-04-10,Bak Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-04-10,Pre New Year Shopping,1,0,Shopping continues
+2017-04-11,Pre New Year Peak,1,0,PEAK: Rice/flour dominant
+2017-04-12,Pre New Year Peak,1,0,PEAK continues
+2017-04-13,Pre New Year Peak,1,0,Last shopping day before closure
+2017-04-14,Sinhala & Tamil New Year Day 1,-1,0,Shops CLOSED — New Year Day 1
+2017-04-14,Good Friday,0,0,Minor reduction — small Christian population
+2017-04-15,Sinhala & Tamil New Year Day 2,-1,0,Shops CLOSED — New Year Day 2
+2017-04-16,Post New Year Recovery,0,0,Gradual return to normal
+2017-05-01,International Workers' Day,0,0,Government holiday — retail largely open
+2017-05-09,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2017-05-10,Pre Vesak Shopping,1,0,Shopping spike — people stock up before Vesak closure
+2017-05-10,Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2017-05-11,Day Following Vesak Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2017-05-11,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2017-05-12,Post Vesak Recovery,0,0,Partial recovery day after Vesak
+2017-06-07,Pre Poson Shopping,1,0,Shopping spike before Poson closure
+2017-06-08,Poson Full Moon Poya Day,-1,1,"Shops CLOSED — major Poya, meat fully restricted"
+2017-06-09,Post Poson Recovery,0,0,Recovery day after Poson
+2017-06-22,Pre Eid Fitr Shopping,1,0,Meat/rice shopping starts
+2017-06-23,Pre Eid Fitr Shopping,1,0,Shopping accelerates
+2017-06-24,Pre Eid Fitr Peak,1,0,PEAK shopping
+2017-06-25,Pre Eid Fitr Peak,1,0,Last minute rush
+2017-06-26,Eid al-Fitr Day 1,0,0,"Muslim shops closed, others open"
+2017-06-27,Eid al-Fitr Day 2,0,0,Celebrations continue
+2017-06-28,Eid al-Fitr Day 3,0,0,Recovery
+2017-07-08,Esala Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-08-07,Nikini Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
 2017-08-28,Pre Eid Adha Shopping,1,0,Shopping starts
 2017-08-29,Pre Eid Adha Shopping,1,0,Meat shopping accelerates
 2017-08-30,Pre Eid Adha Peak,1,0,Heavy meat shopping for Qurbani
-2017-08-31,Pre Eid Adha Peak,1,0,PEAK: Animal purchases
-2017-09-01,Eid al-Adha Day 1,1,0,Qurbani meat distribution
+2017-08-31,Pre Eid Adha Peak,1,0,PEAK: Last minute purchases
+2017-09-01,Eid al-Adha Day 1,1,0,Qurbani meat distribution — elevated sales
 2017-09-02,Eid al-Adha Day 2,0,0,Celebrations
 2017-09-03,Eid al-Adha Day 3,0,0,Recovery
-2017-09-05,Binara Poya,0,1,Meat restricted - Regular Poya
-2017-10-05,Vap Poya,0,1,Meat restricted - Regular Poya
-2017-10-18,Pre Deepavali,1,0,Milk/rice/flour/beverages spike
-2017-10-19,Deepavali,0,0,"Tamil shops closed, others open"
-2017-11-03,Il Poya,0,1,Meat restricted - Regular Poya
-2017-12-03,Unduvap Poya,0,1,Meat restricted - Regular Poya
-2017-12-22,Pre Christmas,1,0,Shopping spike
-2017-12-23,Pre Christmas,1,0,Shopping peak
-2017-12-24,Pre Christmas,1,0,Last shopping day
-2017-12-25,Christmas,-1,0,Shops CLOSED
+2017-09-05,Binara Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-10-05,Vap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-10-17,Pre Deepavali Shopping,1,0,Milk/rice/flour/beverages spike
+2017-10-18,Deepavali Festival Day,0,0,"Tamil shops closed, others open"
+2017-11-03,Il Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-12-01,Prophet's Birthday,0,0,Muslim observance — minor impact on general retail
+2017-12-03,Unduvap Full Moon Poya Day,0,1,"Regular Poya — shops open, meat sales restricted"
+2017-12-22,Pre Christmas Shopping,1,0,Shopping spike
+2017-12-23,Pre Christmas Shopping,1,0,Shopping peak
+2017-12-24,Pre Christmas Peak,1,0,Last shopping day
+2017-12-25,Christmas Day,-1,0,Shops CLOSED
