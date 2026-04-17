@@ -9,7 +9,7 @@ stores and explains each prediction using SHAP (SHapley Additive
 exPlanations).
 
 ## Models
-- XGBoost (primary) — R² 88.76%, WMAPE 21.95% on 2017 test data
+- XGBoost (primary) - R squared 88.76%, WMAPE 21.95% on 2017 test data
 - Linear Regression, Facebook Prophet, Moving Average (baselines)
 
 ## selected procedure 
