@@ -1,42 +1,36 @@
-# Demand Forecasting Project
+# Explainable Demand Forecasting System
+### Sri Lankan Grocery Retail - XGBoost + SHAP + Streamlit
 
-## Phase 1: Data Preparation - Day 1
 
-### Completed:
-- ✅ Project structure created
-- ✅ Packages installed
-- ✅ Favorita dataset downloaded
-- ✅ Initial data exploration
 
-### Dataset Info:
-- Train data: ~125M rows
-- Date range: 2013-01-01 to 2017-08-15
-- Stores: 54
-- Products: ~4000
-- Perishable products: ~1700
+## What This Project Does
+Predicts daily unit sales for 11 products across 2 Sri Lankan retail 
+stores and explains each prediction using SHAP (SHapley Additive 
+exPlanations).
 
-### Next Steps (Day 2):
-- Select 2 stores
-- Select 8-10 perishable products
-- Scope the dataset
-```
+## Models
+- XGBoost (primary) — R² 88.76%, WMAPE 21.95% on 2017 test data
+- Linear Regression, Facebook Prophet, Moving Average (baselines)
 
-Save it.
+## selected procedure 
+dataset corporacion favorita from ecuadore 
+2 stores mapped to store colombo and store gampaha
 
----
+## How To Run The Dashboard
+cd src
+streamlit run dashboard.py
 
-## **END OF DAY 1 - CHECKPOINT**
+## How To Retrain Models (optional)
+Pre-trained models are included in /models directory.
+To retrain from scratch:
+cd src
+python retrain_models.py
 
-### **What You Should Have Now:**
+## Project Structure
+data/        — raw and processed datasets  
+models/      — saved trained model files  
+results/     — predictions and SHAP values  
+src/         — all Python scripts and dashboard
 
-✅ **Folder structure:**
-```
-demand-forecasting/
-├── data/
-│   ├── raw/           (Favorita CSVs here)
-│   ├── processed/
-│   └── holidays/
-├── notebooks/
-│   └── 01_explore_favorita.ipynb
-├── src/
-└── README.md
+## Tech Stack
+Python 3.12, XGBoost, SHAP, Streamlit, Plotly, Pandas
