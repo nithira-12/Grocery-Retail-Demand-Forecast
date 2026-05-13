@@ -36,7 +36,7 @@ def prepare_prophet_data(df, store, item):
 def train_prophet_model(train_df, store, item):
     prophet_data = prepare_prophet_data(train_df, store, item)
 
-    # multiplicative seasonality so sales scale with trend rather than adding to it
+    # multiplicative seasonality so sales scale with trend no  adding to it
     model = Prophet(
         yearly_seasonality=True,
         weekly_seasonality=True,
@@ -81,9 +81,9 @@ for idx, row in unique_combinations.iterrows():
         continue
 
 if len(trained_models) < len(unique_combinations):
-    print(f"warning: {len(unique_combinations) - len(trained_models)} models failed to train")
+    print(f"warning: {len(unique_combinations) - len(trained_models)} models failed  train")
 
-print(f"\ngenerating predictions for {len(trained_models)} models...")
+
 
 all_predictions = []
 model_count     = 0
