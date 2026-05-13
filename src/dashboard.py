@@ -1434,7 +1434,7 @@ elif page == "Market Intelligence":
                         </div>
                     </div>""", unsafe_allow_html=True)
 
-                    st.markdown("<br>", unsafe_allow_html=True)
+                st.markdown("<br>", unsafe_allow_html=True)
                 section("Headlines Analysed")
                 disp_df = use_df[['headline', 'source', 'sentiment', 'score']].copy()
                 disp_df['score'] = disp_df['score'].round(3)
