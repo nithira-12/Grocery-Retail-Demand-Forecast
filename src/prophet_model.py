@@ -6,19 +6,13 @@ import warnings
 import os
 warnings.filterwarnings('ignore')
 
-PROCESSED_DATA_DIR = '../data/processed'
-RESULTS_DIR        = '../results'
-MODELS_DIR         = '../models'
+os.makedirs('../results', exist_ok=True)
 
-os.makedirs(RESULTS_DIR, exist_ok=True)
-os.makedirs(MODELS_DIR, exist_ok=True)
+STORE_NAMES = {44: "Store Colombo", 51: "Store Gampaha"}
 
-SELECTED_STORES = [44, 51]
-STORE_NAMES     = {44: "Store Colombo", 51: "Store Gampaha"}
-
-train = pd.read_csv(f'{PROCESSED_DATA_DIR}/train_processed.csv', parse_dates=['date'])
-val   = pd.read_csv(f'{PROCESSED_DATA_DIR}/val_processed.csv',   parse_dates=['date'])
-test  = pd.read_csv(f'{PROCESSED_DATA_DIR}/test_processed.csv',  parse_dates=['date'])
+# using env CSVs — same data as other models for consistency
+train = pd.read_csv('../data/processed/train_env.csv', parse_dates=['date'])
+val   = pd.read_csv('../data/processed/val_env.csv',   parse_dates=['date'])
 
 unique_combinations = train.groupby(['store_nbr', 'item_nbr']).size().reset_index(name='count')
 
@@ -33,8 +27,8 @@ def prepare_prophet_data(df, store, item):
         'ds': df_filtered['date'],
         'y':  df_filtered['unit_sales']
     })
-    prophet_df['onpromotion'] = df_filtered['onpromotion'].values
-    prophet_df['is_holiday']  = df_filtered['is_holiday'].values
+    prophet_df['onpromotion']  = df_filtered['onpromotion'].values
+    prophet_df['holiday_impact'] = df_filtered['holiday_impact'].values
 
     return prophet_df.reset_index(drop=True)
 
@@ -51,7 +45,7 @@ def train_prophet_model(train_df, store, item):
         seasonality_mode='multiplicative'
     )
     model.add_regressor('onpromotion')
-    model.add_regressor('is_holiday')
+    model.add_regressor('holiday_impact')
     model.fit(prophet_data)
 
     return model
@@ -65,7 +59,6 @@ def make_prophet_predictions(model, val_df, store, item):
     return predictions, actuals, val_prophet['ds'].values
 
 
-# train one model per store-product combination
 print(f"training {len(unique_combinations)} prophet models...")
 
 trained_models = {}
@@ -90,7 +83,6 @@ for idx, row in unique_combinations.iterrows():
 if len(trained_models) < len(unique_combinations):
     print(f"warning: {len(unique_combinations) - len(trained_models)} models failed to train")
 
-# generate validation predictions
 print(f"\ngenerating predictions for {len(trained_models)} models...")
 
 all_predictions = []
@@ -108,12 +100,12 @@ for model_key, model in trained_models.items():
         predictions, actuals, dates = make_prophet_predictions(model, val, store, item)
         for i in range(len(predictions)):
             all_predictions.append({
-                'date':      dates[i],
-                'store_nbr': store,
-                'item_nbr':  item,
-                'actual':    actuals[i],
-                'predicted': predictions[i],
-                'error':     actuals[i] - predictions[i]
+                'date':        dates[i],
+                'store_nbr':   store,
+                'item_nbr':    item,
+                'actual':      actuals[i],
+                'predictions': predictions[i],
+                'error':       actuals[i] - predictions[i]
             })
         print(" done")
     except Exception as e:
@@ -122,63 +114,22 @@ for model_key, model in trained_models.items():
 
 predictions_df = pd.DataFrame(all_predictions)
 
-# overall metrics
-y_true = predictions_df['actual'].values
-y_pred = predictions_df['predicted'].values
+actual    = pd.Series(predictions_df['actual'].values)
+predicted = pd.Series(predictions_df['predictions'].values)
 
-rmse = np.sqrt(mean_squared_error(y_true, y_pred))
-mae  = mean_absolute_error(y_true, y_pred)
-r2   = r2_score(y_true, y_pred)
-mape = np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+rmse  = np.sqrt(mean_squared_error(actual, predicted))
+mae   = mean_absolute_error(actual, predicted)
+r2    = r2_score(actual, predicted)
+mape  = np.mean(np.abs((actual - predicted) / actual.replace(0, np.nan))) * 100
+wmape = (actual - predicted).abs().sum() / actual.sum() * 100
 
-print(f"\nprophet validation results:")
-print(f"  RMSE: {rmse:.2f}  MAE: {mae:.2f}  R2: {r2*100:.2f}%  MAPE: {mape:.2f}%")
+print(f"\nProphet validation results:")
+print(f"  RMSE: {rmse:.2f}  MAE: {mae:.2f}  R2: {r2*100:.2f}%  WMAPE: {wmape:.2f}%  MAPE: {mape:.2f}%")
 
-if r2 < 0:
-    print(f"warning: negative R2 — model performs worse than predicting the mean")
-elif r2 > 0.95:
-    print(f"warning: very high R2 — check for data leakage")
+predictions_df.to_csv('../results/prophet_predictions.csv', index=False)
 
-# product and store breakdown
-predictions_df['abs_error'] = predictions_df['error'].abs()
-predictions_df['pct_error'] = (predictions_df['abs_error'] / predictions_df['actual']) * 100
-
-product_perf = predictions_df.groupby('item_nbr').agg(
-    avg_actual=('actual', 'mean'),
-    avg_predicted=('predicted', 'mean'),
-    mae=('abs_error', 'mean'),
-    mape=('pct_error', 'mean')
-).round(2).sort_values('mae', ascending=False)
-
-store_perf = predictions_df.groupby('store_nbr').agg(
-    avg_actual=('actual', 'mean'),
-    avg_predicted=('predicted', 'mean'),
-    mae=('abs_error', 'mean'),
-    mape=('pct_error', 'mean')
-).round(2)
-store_perf.index = store_perf.index.map(STORE_NAMES)
-
-print(f"\nperformance by product:")
-print(product_perf.to_string())
-
-print(f"\nperformance by store:")
-print(store_perf.to_string())
-
-print(f"\nbest 3 products (lowest MAE):")
-print(product_perf.nsmallest(3, 'mae')[['mae', 'mape']].to_string())
-
-print(f"\nmost challenging 3 products (highest MAE):")
-print(product_perf.nlargest(3, 'mae')[['mae', 'mape']].to_string())
-
-# save results
-pd.DataFrame({
-    'Model': ['Prophet'],
-    'RMSE':  [rmse],
-    'MAE':   [mae],
-    'R2':    [r2],
-    'MAPE':  [mape]
-}).to_csv(f'{RESULTS_DIR}/prophet_metrics.csv', index=False)
-
-predictions_df.to_csv(f'{RESULTS_DIR}/prophet_predictions.csv', index=False)
-product_perf.to_csv(f'{RESULTS_DIR}/prophet_product_performance.csv')
-store_perf.to_csv(f'{RESULTS_DIR}/prophet_store_performance.csv')
+pd.DataFrame([{
+    'Model': 'Prophet', 'RMSE': round(rmse, 2), 'MAE': round(mae, 2),
+    'R2': round(r2, 4), 'R2_pct': round(r2 * 100, 2),
+    'MAPE': round(mape, 2), 'WMAPE': round(wmape, 2)
+}]).to_csv('../results/prophet_metrics.csv', index=False)
