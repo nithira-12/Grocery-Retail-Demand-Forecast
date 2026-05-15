@@ -9,28 +9,42 @@ stores and explains each prediction using SHAP (SHapley Additive
 exPlanations).
 
 ## Models
-- XGBoost (primary) - R squared 88.76%, WMAPE 21.95% on 2017 test data
-- Linear Regression, Facebook Prophet, Moving Average (baselines)
+- XGBoost (primary) - R2 88.63%, WMAPE 21.78% on 2017 test data
+- Linear Regression, Facebook Prophet, LSTM, Moving Average (baselines)
 
-## selected procedure 
-dataset corporacion favorita from ecuadore 
-2 stores mapped to store colombo and store gampaha
+## Dataset
+Corporacion Favorita from Ecuador.
+2 stores mapped to Store Colombo and Store Gampaha.
+Sri Lankan holiday calendar with 301 entries applied.
 
 ## How To Run The Dashboard
 cd src
 streamlit run dashboard.py
 
-## How To Retrain Models (optional)
-Pre-trained models are included in /models directory.
-To retrain from scratch:
+## If You Only Want XGBoost
 cd src
-python retrain_models.py
+python xgboost_model.py
+python generate_test_predictions.py
+streamlit run dashboard.py
+
+## Full Pipeline (optional)
+cd src
+python create_sri_lanka_holidays.py
+python data_processing.py
+python merge_environmental.py
+python xgboost_model.py
+python linear_regression.py
+python moving_average.py
+python prophet_model.py
+python shap_explainability.py
+python generate_test_predictions.py
+streamlit run dashboard.py
 
 ## Project Structure
-data/        — raw and processed datasets  
-models/      — saved trained model files  
-results/     — predictions and SHAP values  
-src/         — all Python scripts and dashboard
+data/        raw and processed datasets  
+models/      saved trained model files  
+results/     predictions and SHAP values  
+src/         all Python scripts and dashboard
 
 ## Tech Stack
-Python 3.12, XGBoost, SHAP, Streamlit, Plotly, Pandas
+Python 3.12, XGBoost, SHAP, Streamlit, Plotly, Pandas, Prophet, TensorFlow
