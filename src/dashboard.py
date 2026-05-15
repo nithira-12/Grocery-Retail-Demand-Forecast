@@ -549,7 +549,7 @@ if page == "Forecast View":
     if not all_results:
         st.stop()
 
-    # ── SUMMARY TABLE ──────────────────────────────────────────────────
+    # SUMMARY TABLE
     st.markdown("<br>", unsafe_allow_html=True)
     section("All Products Overview")
 
@@ -594,7 +594,7 @@ if page == "Forecast View":
     </table></div>
     """, unsafe_allow_html=True)
 
-    # ── INDIVIDUAL PRODUCT CHARTS ───────────────────────────────────────
+    # INDIVIDUAL PRODUCT CHARTS
     st.markdown("<br>", unsafe_allow_html=True)
     section("Product Forecasts")
 
@@ -647,9 +647,9 @@ if page == "Forecast View":
         st.plotly_chart(fig, use_container_width=True)
 
 
-# ─────────────────────────────────────────────
-# PAGE 2 — WHY THIS PREDICTION?
-# ─────────────────────────────────────────────
+
+# PAGE 2 — WHY THIS PREDICTION?(shap)
+
 elif page == "Why This Prediction?":
 
     page_header("", "Why Did the Model Predict This?",
@@ -1454,3 +1454,4 @@ elif page == "Market Intelligence":
                 <div style="font-size:15px; font-weight:600; color:#64748b; margin-bottom:8px;">Click the button above to fetch live news</div>
                 <div style="font-size:13px;">Sri Lankan news headlines will be scored for economic sentiment</div>
             </div>""", unsafe_allow_html=True)
+
