@@ -16,7 +16,10 @@ with open('../models/xgboost_model_v2.pkl', 'rb') as f:
 with open('../models/feature_list.pkl', 'rb') as f:
     ALL_FEATURES = pickle.load(f)
 
-val = pd.read_csv('../data/processed/val_env.csv', parse_dates=['date'])
+test = pd.read_csv('../data/processed/test_env.csv', parse_dates=['date'])
+
+BLEND_PRODUCTS = [564287, 903285, 584028, 1047679]
+BLEND_WEIGHT   = 0.80
 
 
 def create_lag_features(df):
@@ -36,15 +39,31 @@ def create_lag_features(df):
     return df_lagged.dropna()
 
 
-val_lagged = create_lag_features(val)
-X_val      = val_lagged[ALL_FEATURES]
-y_val      = val_lagged['unit_sales']
-y_val_pred = model.predict(X_val)
+def apply_blend(predictions, df):
+    blended = predictions.copy()
+    for product in BLEND_PRODUCTS:
+        mask    = df['item_nbr'].values == product
+        rolling = df.loc[df['item_nbr'] == product, 'sales_rolling_mean_7'].values
+        if mask.sum() == 0:
+            continue
+        blended[mask] = (
+            BLEND_WEIGHT * predictions[mask] +
+            (1 - BLEND_WEIGHT) * rolling
+        )
+    return blended
 
-print(f"computing SHAP values for {len(X_val):,} predictions...")
+
+test_lagged = create_lag_features(test)
+X_test      = test_lagged[ALL_FEATURES]
+y_test      = test_lagged['unit_sales']
+
+test_pred_raw = np.maximum(model.predict(X_test), 0)
+test_pred     = apply_blend(test_pred_raw, test_lagged)
+
+print(f"computing SHAP values for {len(X_test):,} predictions...")
 start       = time.time()
 explainer   = shap.TreeExplainer(model)
-shap_values = explainer.shap_values(X_val)
+shap_values = explainer.shap_values(X_test)
 base_value  = explainer.expected_value
 elapsed     = time.time() - start
 
@@ -52,11 +71,11 @@ print(f"  done in {elapsed:.1f} seconds")
 print(f"  base value: {base_value:.4f}")
 
 shap_df = pd.DataFrame(shap_values, columns=[f'shap_{f}' for f in ALL_FEATURES])
-shap_df['date']       = val_lagged['date'].values
-shap_df['store_nbr']  = val_lagged['store_nbr'].values
-shap_df['item_nbr']   = val_lagged['item_nbr'].values
-shap_df['actual']     = y_val.values
-shap_df['prediction'] = y_val_pred
+shap_df['date']       = test_lagged['date'].values
+shap_df['store_nbr']  = test_lagged['store_nbr'].values
+shap_df['item_nbr']   = test_lagged['item_nbr'].values
+shap_df['actual']     = y_test.values
+shap_df['prediction'] = test_pred
 shap_df['base_value'] = base_value
 shap_df.to_csv('../results/shap/complete_shap_values.csv', index=False)
 
@@ -118,3 +137,6 @@ for item_nbr, product_name in PRODUCT_NAMES.items():
     )
 
 print(f"\nper-product SHAP saved for {len(PRODUCT_NAMES)} products")
+print(f"\nSHAP recomputed on 2017 test data successfully.")
+print(f"complete_shap_values.csv now covers: {shap_df['date'].min()} to {shap_df['date'].max()}")
+print(f"total predictions explained: {len(shap_df):,}")
